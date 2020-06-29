@@ -3,7 +3,7 @@
         {
             "prefecture":"0",
             "id": "0",
-            "set_meal_name": "敏感肌肤专区",
+            "set_meal_name": "敏感肌肤方案一",
             "set_meal_effect": [
                 { "set_meal_text": "00针对敏感肌肤护理（原价1897元，秒杀价：884元）"},
                 {"set_meal_text": "包含单品：①核心修复成分（次抛脱敏因子）：脱敏因子精华！适合任何敏感肌肤，泛红 干燥 瘙痒 疹子等，促进细胞再生，修护受损组织，抑制组胺生成，避免敏感复发！"},
@@ -22,7 +22,7 @@
         {
             "prefecture":"0",
             "id": "1",
-            "set_meal_name": "敏感肌肤专区1",
+            "set_meal_name": "敏感肌肤方案二",
             "set_meal_effect": [
                 { "set_meal_text": "01针对敏感肌肤护理（原价1897元，秒杀价：884元）"},
                 {"set_meal_text": "包含单品：①核心修复成分（次抛脱敏因子）：脱敏因子精华！适合任何敏感肌肤，泛红 干燥 瘙痒 疹子等，促进细胞再生，修护受损组织，抑制组胺生成，避免敏感复发！"},
@@ -32,7 +32,7 @@
             "set_meal_originalprice": "1897",
             "set_meal_price": "884",
             "img_url": [
-                {"url": "http://jstest.jxyanxishe.com/img/1.jpg"},
+                {"url": "http://jstest.jxyanxishe.com/img/暗黄色斑/1.jpg"},
                 {"url": "http://jstest.jxyanxishe.com/img/2.jpg"},
                 {"url": "http://jstest.jxyanxishe.com/img/3.jpg"},
                 {"url": "http://jstest.jxyanxishe.com/img/4.jpg"}
@@ -40,7 +40,7 @@
         },{
             "prefecture":"0",
             "id": "2",
-            "set_meal_name": "敏感肌肤专区2",
+            "set_meal_name": "敏感肌肤方案三",
             "set_meal_effect": [
                 { "set_meal_text": "02针对敏感肌肤护理（原价1897元，秒杀价：884元）"},
                 {"set_meal_text": "包含单品：①核心修复成分（次抛脱敏因子）：脱敏因子精华！适合任何敏感肌肤，泛红 干燥 瘙痒 疹子等，促进细胞再生，修护受损组织，抑制组胺生成，避免敏感复发！"},
