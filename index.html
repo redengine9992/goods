@@ -1,1 +1,113 @@
-<!DOCTYPE html><html><head><meta charset=UTF-8><meta http-equiv=Content-Type content="text/html; charset=UTF-8"><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta content=webkit name=renderer><meta content=YES name=apple-touch-fullscreen><meta content="telephone=no" name=format-detection><meta content=yes name=apple-mobile-web-app-capable><meta content=black name=apple-mobile-web-app-status-bar-style><meta content=-1 http-equiv=Expires><meta content=no-cache http-equiv=pragram><meta name=screen-orientation content=portrait><meta name=x5-orientation content=portrait><meta name=viewport content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no"><title></title><link href=./static/css/app.87da641890a90e42a55d9ba527cb7b08.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.8e1060badf8435fd91fd.js></script><script type=text/javascript src=./static/js/app.88f27114be71462492b1.js></script></body></html>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clipboard.min_1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/setRootRem640.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css.css"/>
+	</head>
+
+	<body>
+
+		手机才可以长按
+		<div class="wxhm">
+			<span class="wxname">kl12345678</span>
+		</div>
+		<div class="clipboards">
+			复制成功！（这是一个弹窗）
+			<div id="closed">
+				关闭
+			</div>
+		</div>
+		<input type="text" name="" id="" value="" />
+		
+		
+	</body>
+	<!--方法一-->
+	<script>
+		function buttonCopy() {
+			//				var targetText = $(".wxcode").eq(1).text();
+			var touchBehavior;
+			var wx_node = $('.wxname');//要长按的位置
+			var body_node = $('body');//点击页面其他位置，复制窗口会关闭
+			wx_node.attr('ontouchstart', 'return false;');
+			wx_node.css("position", "relative");
+			wx_node.each(function() {
+				$(this).append('<button class="copyprop btn_copy copyBtn">复制</button>');//每一个.wxname 后。动态添加 复制按扭
+			});
+
+			wx_node.on("touchstart", function(event) {
+				event.stopPropagation();
+				var _this = $(this);
+				touchBehavior = setInterval(function() {//触摸时长500毫秒时
+					_this.find(".btn_copy").addClass("show_");
+				}, 500);
+			});
+			wx_node.on("touchend", function(event) {
+				event.stopPropagation();
+				clearInterval(touchBehavior);
+			});
+			body_node.on('touchstart', function(event) {
+				event.stopPropagation();
+				$('.btn_copy').removeClass('show_');
+			});
+			$(document).on("click", ".btn_copy", function(event) {
+				$('.btn_copy').removeClass('show_');
+
+			});
+			
+			$(".btn_copy").on("touchstart", function(event) {
+				event.stopPropagation();
+			});
+			$(".btn_copy").on("touchend", function(event) {
+				event.stopPropagation();
+			});
+		};
+		window.onload = buttonCopy();//载入网页时
+	</script>
+	<!--复制点击复制事件-->
+	<script>
+		$("#closed").click(function() {
+			$(".clipboards").hide()
+			
+		});
+
+		var mxwx = "kl12345678";
+		hkfmtjwm(mxwx, "copyBtn")
+
+		function hkfmtjwm(mxwx, copyBtn) {
+			var clipboard = new Clipboard('.' + copyBtn, {
+				text: function(event) {
+					return mxwx;
+				}
+			});
+			//			复制成功
+			clipboard.on('success', function(e) {
+				$(".clipboards").show()
+				window._agl && window._agl.push(['track', ['success', {
+					t: 3
+				}]])
+			});
+			//			复制失败
+			clipboard.on('error', function(e) {
+				alert("请手动长按复制")
+			});
+		};
+		$(document).on("copy", ".wxname", function() {
+			$(".clipboards").show()
+			window._agl && window._agl.push(['track', ['success', {
+				t: 3
+			}]])
+		});
+	</script>
+	
+	<!--方法二-->
+	<!--手机端，长按事件-->
+
+
+
+</html>
