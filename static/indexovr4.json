@@ -10,15 +10,10 @@
                 {"set_meal_text": "②冰川小分子喷雾：小分子水深层补水保湿，能有效降低表皮温度，缓解因高温、干燥等引起的缺水现象，建立保湿锁水屏障，在表皮形成一层保护膜。"},
                 {"set_meal_text": "③皮脂膜修护霜：修复皮肤天然保护膜，增厚角质层，修复受损细胞以及组织，刺激组织新生皮肤。 "},{"set_meal_text": "④翠竹亲肤沁透面膜*2盒：适合任何肤质，特别是敏感肌肤，深层补水，促进肌肤水循环，调节脆弱受损肌肤，缓解肌肤因缺水引起粗糙、干燥不适反应，由内而外滋养嫩肤，提升肌肤水润活力。"}
             ],
+            "drww":"原价",
             "set_meal_originalprice": "1897",
-            "set_meal_price": "884",
-            "img_url": [
-                {"url": "https://redengine9992.github.io/img/img4/4.jpg"},
-                {"url": "https://redengine9992.github.io/img/img4/2.jpg"},
-                {"url": "https://redengine9992.github.io/img/img4/3.jpg"},
-                {"url": "https://redengine9992.github.io/img/img4/4.jpg"},
-                {"url": "https://redengine9992.github.io/img/img2/1.jpg"}
-            ]
+            "meal":"活动价",
+            "set_meal_price": "884"
         },
         {
             "prefecture":"3",
@@ -30,14 +25,10 @@
                 {"set_meal_text": "②冰川小分子喷雾：小分子水深层补水保湿，能有效降低表皮温度，缓解因高温、干燥等引起的缺水现象，建立保湿锁水屏障，在表皮形成一层保护膜。"},
                 {"set_meal_text": "③皮脂膜修护霜：修复皮肤天然保护膜，增厚角质层，修复受损细胞以及组织，刺激组织新生皮肤。 "},{"set_meal_text": "④翠竹亲肤沁透面膜*2盒：适合任何肤质，特别是敏感肌肤，深层补水，促进肌肤水循环，调节脆弱受损肌肤，缓解肌肤因缺水引起粗糙、干燥不适反应，由内而外滋养嫩肤，提升肌肤水润活力。"}
             ],
+            "drww":"原价",
             "set_meal_originalprice": "1897",
-            "set_meal_price": "884",
-            "img_url": [
-                {"url": "http://jstest.jxyanxishe.com/img/1.jpg"},
-                {"url": "http://jstest.jxyanxishe.com/img/2.jpg"},
-                {"url": "http://jstest.jxyanxishe.com/img/3.jpg"},
-                {"url": "http://jstest.jxyanxishe.com/img/4.jpg"}
-            ]
+            "meal":"活动价",
+            "set_meal_price": "884"
         },{
             "prefecture":"3",
             "id": "2",
@@ -48,14 +39,10 @@
                 {"set_meal_text": "②冰川小分子喷雾：小分子水深层补水保湿，能有效降低表皮温度，缓解因高温、干燥等引起的缺水现象，建立保湿锁水屏障，在表皮形成一层保护膜。"},
                 {"set_meal_text": "③皮脂膜修护霜：修复皮肤天然保护膜，增厚角质层，修复受损细胞以及组织，刺激组织新生皮肤。 "},{"set_meal_text": "④翠竹亲肤沁透面膜*2盒：适合任何肤质，特别是敏感肌肤，深层补水，促进肌肤水循环，调节脆弱受损肌肤，缓解肌肤因缺水引起粗糙、干燥不适反应，由内而外滋养嫩肤，提升肌肤水润活力。"}
             ],
+            "drww":"原价",
             "set_meal_originalprice": "1897",
-            "set_meal_price": "884",
-            "img_url": [
-                {"url": "http://jstest.jxyanxishe.com/img/1.jpg"},
-                {"url": "http://jstest.jxyanxishe.com/img/2.jpg"},
-                {"url": "http://jstest.jxyanxishe.com/img/3.jpg"},
-                {"url": "http://jstest.jxyanxishe.com/img/4.jpg"}
-            ]
+            "meal":"活动价",
+            "set_meal_price": "884"
         },{
             "prefecture":"3",
             "id": "3",
@@ -68,12 +55,10 @@
             ],
             "set_meal_originalprice": "1897",
             "set_meal_price": "884",
-            "img_url": [
-                {"url": "http://jstest.jxyanxishe.com/img/1.jpg"},
-                {"url": "http://jstest.jxyanxishe.com/img/2.jpg"},
-                {"url": "http://jstest.jxyanxishe.com/img/3.jpg"},
-                {"url": "http://jstest.jxyanxishe.com/img/4.jpg"}
-            ]
+            "drww":"原价",
+            "set_meal_originalprice": "1897",
+            "meal":"活动价",
+            "set_meal_price": "884"
         }
     ]
 }
